@@ -1,0 +1,154 @@
+.nav-bar {
+  background-color: #fff;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.tnw-img-anchore {
+  background-color: #000;
+  padding: 16px 20px;
+}
+
+.tnw-image {
+  width: 70px;
+  margin-top: 5px;
+}
+
+.search-icon-anchor {
+  display: block;
+  height: 48px;
+  padding: 16px;
+  width: 48px;
+}
+
+.icon {
+  background: transparent url(../images/icons-sprite.svg) no-repeat;
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+.search-icon {
+  background-position: -848px -848px;
+}
+
+.nav-hamburger span {
+  background-color: #f42;
+  display: block;
+  height: 2px;
+  left: 14px;
+  margin-top: -1px;
+  top: 50%;
+}
+
+.main-article {
+  width: 100%;
+}
+
+.tech-article-div {
+  background: url(../images/tech.jpg) no-repeat 0%;
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.lazy-article-div {
+  background-image: url(../images/lazy.png);
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.amazon-article-div {
+  background: url(../images/amazon.png) no-repeat 0%;
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.article-positioning {
+  position: relative;
+  height: 150px;
+  margin: 10px 5px 0 5px;
+  width: 100%;
+}
+
+.header-wrapper {
+  color: #fff;
+  bottom: 4px;
+  left: 4px;
+  padding: 14px 12px;
+  position: absolute;
+  right: 4px;
+}
+
+.latest-new-section {
+  margin-left: 20px;
+}
+
+.latest-news-element-wrapper {
+  flex-direction: column;
+}
+
+.latest-news-list-item {
+  margin-bottom: 8px;
+}
+
+.header-list-item {
+  margin: 0 30px 0 0;
+}
+
+.latest-news-header {
+  margin-bottom: 24px;
+}
+
+.google-assistant-anchor {
+  background-image: url(../images/latest-news-image-1.webp);
+}
+
+.canada-anchor {
+  background-image: url(../images/latest-news-image-2.jpg);
+}
+
+.latest-news-element-style {
+  width: 75px;
+  height: 75px;
+  display: block;
+  background-color: #000;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.latest-news-article {
+  margin-left: 16px;
+}
+
+.article-header-anchor {
+  color: #000;
+}
+
+.article-header-anchor:hover {
+  color: #f00;
+  text-decoration: underline rgba(255, 138, 71, 0.445);
+}
+
+.article-details {
+  font-size: 12px;
+  margin: 2px;
+}
+
+.article-details li {
+  margin: 2px;
+  color: #808080;
+}
+
+.article-details-name {
+  color: #808080;
+}
+
+.article-details-name:hover {
+  color: #080808;
+}
