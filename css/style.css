@@ -75,13 +75,13 @@
   width: 100%;
 }
 
-.header-anchor{
+.header-anchor {
   color: #f00;
   font-size: 120%;
 }
 
-.header-anchor:hover{
-   color: #000;
+.header-anchor:hover {
+  color: #000;
 }
 
 .header-wrapper {
@@ -92,7 +92,8 @@
   position: absolute;
   right: 4px;
 }
-.header-wrapper-anchor{
+
+.header-wrapper-anchor {
   color: #fffaf8;
 }
 
@@ -122,31 +123,29 @@
 
 .canada-anchor {
   background-image: url(../images/latest-news-image-2.jpg);
-
 }
 
-.remote-onboarding-anchor{
+.remote-onboarding-anchor {
   background-image: url(../images/latest-news-image-4.webp);
 }
 
-.whatsapp-model-anchor{
+.whatsapp-model-anchor {
   background-image: url(../images/latest-news-image-3.jpg);
 }
 
-.Tesla-anchor{
+.Tesla-anchor {
   background-image: url(../images/latest-news-image-5.webp);
 }
 
-.elon-mosk-anchor{
+.elon-mosk-anchor {
   background-image: url(../images/latest-news-image-6.jpg);
 }
 
-.hardest-game-anchor{
+.hardest-game-anchor {
   background-image: url(../images/latest-news-image-7.jpg);
 }
 
-
-.gravitational-lenses-anchor{
+.gravitational-lenses-anchor {
   background-image: url(../images/latest-news-image-8.jpg);
 }
 
@@ -191,29 +190,28 @@
   color: #080808;
 }
 
-.investment-wrapper-div{
-flex-direction: column;
-width: 100%;
+.investment-wrapper-div {
+  flex-direction: column;
+  width: 100%;
 }
 
-.investment-story-first-div{
+.investment-story-first-div {
   min-height: 60px;
   position: relative;
   width: 100%;
   margin: 10px 0 20px 0;
 }
 
-.investment-story-second-div{
+.investment-story-second-div {
   background: #fffaf8;
- 
 }
 
-.investment-anchor{
+.investment-anchor {
   position: relative;
   display: block;
 }
 
-.investment-story-image{
+.investment-story-image {
   width: 60px;
   min-width: 60px;
   max-width: 60px;
@@ -227,26 +225,25 @@ width: 100%;
   display: block;
 }
 
-.story-investment-name{
+.story-investment-name {
   background: #f42;
-    color: #fff;
-    padding: 10.6666666667px 16px 10.6666666667px 84px;
-    margin: 0!important;
-    font-size: 20px;
-    white-space: nowrap;
-    overflow: hidden;
-
+  color: #fff;
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  margin: 0 !important;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
-.story-investmentCard-details{
+.story-investmentCard-details {
   padding: 10.6666666667px 16px 10.6666666667px 84px;
   color: #000;
-  background: rgba(255,68,34,.08);
+  background: rgba(255, 68, 34, 0.08);
   margin: 0;
   font-weight: 600;
 }
 
-.investment-story-third-div-anchor{
+.investment-story-third-div-anchor {
   padding: 8px 0 8px 2em;
   position: relative;
   font-size: 14px;
@@ -257,19 +254,18 @@ width: 100%;
   font-weight: 500;
 }
 
-.investment-story-unordered-list{
-  border-top: 1px solid rgba(255,68,34,.25);
+.investment-story-unordered-list {
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
   margin-top: 10px;
-  padding-top: 10px
+  padding-top: 10px;
 }
 
-.investment-story-unordered-list-anchor{
+.investment-story-unordered-list-anchor {
   color: #555;
   font-size: 90%;
 }
 
-.story-source{
+.story-source {
   color: #aaa;
   font-size: 90%;
-
 }
