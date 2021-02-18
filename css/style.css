@@ -77,7 +77,19 @@
 
 .header-anchor {
   color: #f00;
-  font-size: 120%;
+  font-size: 25px;
+}
+
+.header-after::after {
+  background-image: url(../images/after.svg);
+  background-size: 16px 16px;
+  content: '';
+  display: inline-block;
+  height: 16px;
+  margin-left: 2px;
+  position: relative;
+  top: 0;
+  width: 16px;
 }
 
 .header-anchor:hover {
@@ -268,4 +280,146 @@
 .story-source {
   color: #aaa;
   font-size: 90%;
+}
+
+.most-popular-section {
+  width: 100%;
+}
+
+.most-popular-first-div {
+  margin-bottom: 40px;
+  flex-direction: column;
+}
+
+.most-popular-h2 {
+  margin-bottom: 14px;
+}
+
+.most-popular-article {
+  height: 0;
+  padding-top: 75%;
+  position: relative;
+  width: 100%;
+}
+
+.image-div {
+  background-image: url(../images/hard-fork-img.jpg);
+}
+
+.image-div-2 {
+  background-image: url(../images/apps-section-image.png);
+}
+
+.image-style {
+  width: 100%;
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.most-popular-header {
+  bottom: 0;
+  left: 0;
+  padding: 14px;
+  position: absolute;
+  right: 0;
+}
+
+.most-popular-h5 {
+  color: #fff;
+  font-size: 15px;
+}
+
+.most-popular-title {
+  font-size: 20px;
+}
+
+.details {
+  color: #666;
+  margin-right: 15px;
+}
+
+.latest-li {
+  background-color: rgba(255, 68, 34, 0.08);
+}
+
+.latest-article {
+  justify-content: space-between;
+  padding-top: 2px;
+}
+
+.latest-section-header {
+  color: #f42;
+  font-size: 15px;
+}
+
+.latest-section-title {
+  max-height: 56px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.latest-section-anchor {
+  color: #f00;
+}
+
+.latest-section-anchor:hover {
+  text-decoration: underline rgba(255, 138, 71, 0.445);
+}
+
+.latest-image-1 {
+  background-image: url(../images/latest-image-1.jpg);
+}
+
+.latest-image-2 {
+  background-image: url(../images/latest-image-2.png);
+}
+
+.latest-image-style {
+  flex: 0 0 96px;
+  background-color: #000;
+  background-position: 50%;
+  background-size: cover;
+  height: 96px;
+  width: 96px;
+}
+
+.section-headline {
+  border-bottom: 1px solid #eee;
+  list-style-type: circle;
+}
+
+.section-headline-title {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.section-headline-anchor {
+  color: #555;
+  display: block;
+  padding: 6px 0 6px 14px;
+  position: relative;
+}
+
+.section-headline-anchor:hover {
+  color: #000;
+}
+
+.section-headline-anchor::before {
+  background-color: #f42;
+  border-radius: 50%;
+  content: '';
+  display: block;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 13px;
+  width: 4px;
 }
