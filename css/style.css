@@ -107,6 +107,7 @@
 
 .header-wrapper-anchor {
   color: #fffaf8;
+  font-size: 22px;
 }
 
 .latest-new-section {
@@ -310,6 +311,30 @@
   background-image: url(../images/apps-section-image.png);
 }
 
+.image-div-3 {
+  background-image: url(../images/gear-img.jpg);
+}
+
+.image-div-4 {
+  background-image: url(../images/spider-man-img.png);
+}
+
+.image-div-5 {
+  background-image: url(../images/creative.webp);
+}
+
+.image-div-6 {
+  background-image: url(../images/podium.webp);
+}
+
+.image-div-7 {
+  background-image: url(../images/insight.webp);
+}
+
+.image-div-8 {
+  background-image: url(../images/launch.jpg);
+}
+
 .image-style {
   width: 100%;
   background-color: #000;
@@ -340,7 +365,7 @@
 }
 
 .details {
-  color: #666;
+  color: hsla(0, 0%, 100%, 0.6);
   margin-right: 15px;
 }
 
@@ -381,6 +406,30 @@
   background-image: url(../images/latest-image-2.png);
 }
 
+.latest-image-3 {
+  background-image: url(../images/latest-image-3.jpg);
+}
+
+.latest-image-4 {
+  background-image: url(../images/tech.jpg);
+}
+
+.latest-image-5 {
+  background-image: url(../images/latest-image-5.jpg);
+}
+
+.latest-image-6 {
+  background-image: url(../images/latest-image-6.webp);
+}
+
+.latest-image-7 {
+  background-image: url(../images/lazy.png);
+}
+
+.latest-image-8 {
+  background-image: url(../images/latest-image-8.jpg);
+}
+
 .latest-image-style {
   flex: 0 0 96px;
   background-color: #000;
@@ -392,7 +441,6 @@
 
 .section-headline {
   border-bottom: 1px solid #eee;
-  list-style-type: circle;
 }
 
 .section-headline-title {
