@@ -16,22 +16,19 @@
   margin-top: 5px;
 }
 
+.display-none {
+  display: none;
+}
+
+.below-nav {
+  display: none;
+}
+
 .search-icon-anchor {
   display: block;
   height: 48px;
   padding: 16px;
   width: 48px;
-}
-
-.icon {
-  background: transparent url(../images/icons-sprite.svg) no-repeat;
-  display: block;
-  width: 16px;
-  height: 16px;
-}
-
-.search-icon {
-  background-position: -848px -848px;
 }
 
 .nav-hamburger span {
@@ -43,35 +40,34 @@
   top: 50%;
 }
 
-.main-article {
+.main-article-wrapper {
+  flex-direction: column;
+}
+
+.width-100-percent {
   width: 100%;
 }
 
 .tech-article-div {
   background: url(../images/tech.jpg) no-repeat 0%;
-  background-color: #000;
-  background-size: cover;
-  background-position: 50%;
 }
 
 .lazy-article-div {
-  background-image: url(../images/lazy.png);
-  background-color: #000;
-  background-size: cover;
-  background-position: 50%;
+  background: url(../images/lazy.png) no-repeat 0%;
 }
 
 .amazon-article-div {
   background: url(../images/amazon.png) no-repeat 0%;
-  background-color: #000;
-  background-size: cover;
-  background-position: 50%;
 }
 
 .article-positioning {
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
   position: relative;
   height: 150px;
-  margin: 10px 5px 0 5px;
+  margin-top: 10px;
+  padding: 0 5px 0 5px;
   width: 100%;
 }
 
@@ -107,11 +103,11 @@
 
 .header-wrapper-anchor {
   color: #fffaf8;
-  font-size: 22px;
 }
 
 .latest-new-section {
-  margin-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .latest-news-element-wrapper {
@@ -174,6 +170,7 @@
 
 .latest-news-article {
   margin-left: 16px;
+  flex-direction: column;
 }
 
 .article-header-anchor {
@@ -239,6 +236,16 @@
 }
 
 .story-investment-name {
+  background: #f42;
+  color: #fff;
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  margin: 0 !important;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.story-investment-name-mobile {
   background: #f42;
   color: #fff;
   padding: 10.6666666667px 16px 10.6666666667px 84px;
@@ -333,6 +340,10 @@
 
 .image-div-8 {
   background-image: url(../images/launch.jpg);
+}
+
+.image-div-9 {
+  background-image: url(../images/distract.jpg);
 }
 
 .image-style {
@@ -430,6 +441,10 @@
   background-image: url(../images/latest-image-8.jpg);
 }
 
+.latest-image-9 {
+  background-image: url(../images/latest-image-9.jpg);
+}
+
 .latest-image-style {
   flex: 0 0 96px;
   background-color: #000;
@@ -470,4 +485,139 @@
   position: absolute;
   top: 13px;
   width: 4px;
+}
+
+.latest-deal-header {
+  justify-content: space-between;
+}
+
+.latest-deal-anchor {
+  font-size: 15px;
+  color: #f00;
+}
+
+.latest-deal-anchor:hover {
+  color: #000;
+}
+
+.latest-deal-div {
+  margin-top: 30px;
+}
+
+.latest-deal-1-image {
+  background-image: url(../images/pad-controller.jpg);
+  display: block;
+}
+
+.latest-deal-2-image {
+  background-image: url(../images/projector.jpg);
+  display: block;
+}
+
+.latest-deal-3-image {
+  background-image: url(../images/after-click.jpg);
+  display: block;
+}
+
+.latest-deal-4-image {
+  background-image: url(../images/cyber.jpg);
+  display: block;
+}
+
+.latest-deal-5-image {
+  background-image: url(../images/vpn.jpg);
+  display: block;
+}
+
+.latest-deal-6-image {
+  background-image: url(../images/x-music.jpg);
+  display: block;
+}
+
+.latest-deal-7-image {
+  background-image: url(../images/elocance.jpg);
+  display: block;
+}
+
+.latest-deal-8-image {
+  background-image: url(../images/certification.jpg);
+  display: block;
+}
+
+.latest-deal-image-style {
+  flex: 0 0 96px;
+  background-color: #aaa;
+  background-position: 50%;
+  background-size: cover;
+  height: 75px;
+  width: 75px;
+}
+
+.story-title {
+  word-wrap: break-word;
+  margin-left: 8px;
+}
+
+.latest-deal-h4-anchor {
+  color: #000;
+  font-size: 15.5px;
+  margin-right: 16px;
+}
+
+.latest-deal-column-div {
+  flex-direction: column;
+}
+
+.latest-deal-h4-anchor:hover {
+  color: #f42;
+  text-decoration: underline rgb(255, 104, 34);
+}
+
+.story-dealPrice {
+  padding-top: 4px;
+}
+
+.old-dealPrice {
+  text-decoration: line-through;
+  color: #aaa;
+  margin-right: 4px;
+  margin-left: 8px;
+  font-size: 13px;
+}
+
+.new-dealPrice {
+  font-size: 14px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer-fist-div {
+  background: #131313;
+  padding: 2.5em 0;
+}
+
+.icon-wrapper {
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 0 20px;
+}
+
+.footer-div-ul {
+  justify-content: center;
+}
+
+.footer-ul-li {
+  margin: 0 3px;
+}
+
+.footer-icon-anchor {
+  background: #333;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  padding: 12px;
+  text-align: center;
+  width: 40px;
 }

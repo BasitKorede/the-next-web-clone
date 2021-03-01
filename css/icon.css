@@ -1,0 +1,38 @@
+.icon {
+  background: transparent url(../images/icons-sprite.svg) no-repeat;
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+.search-icon {
+  background-position: -848px -848px;
+}
+
+.facebook-light-icon {
+  background-position: -272px -272px;
+}
+
+.twitter-light-icon {
+  background-position: -1024px -1024px;
+}
+
+.tube-light-icon {
+  background-position: -1280px -1280px;
+}
+
+.instagram-light-icon {
+  background-position: -416px -416px;
+}
+
+.pinterest-light-icon {
+  background-position: -672px -672px;
+}
+
+.rss-light-icon {
+  background-position: -816px -816px;
+}
+
+.mail-light-icon {
+  background-position: -576px -576px;
+}
