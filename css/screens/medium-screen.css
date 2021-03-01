@@ -1,0 +1,83 @@
+.main-article-wrapper {
+  flex-direction: row;
+  width: 100%;
+}
+
+.tech-article {
+  width: 66.666%;
+  padding: 4px;
+}
+
+.medium-size-main-article-style {
+  flex-direction: column;
+  width: 33.333%;
+  padding: 4px;
+}
+
+.tech-article-div {
+  width: 100%;
+  height: 97%;
+  padding-bottom: 4px;
+}
+
+.lazy-article-div {
+  width: 100%;
+}
+
+.amazon-article-div {
+  width: 100%;
+}
+
+.medium-size-font {
+  font-size: 15px;
+}
+
+.header-ul {
+  flex-direction: column;
+}
+
+.latest-news-element-wrapper {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.latest-news-list-item {
+  flex-direction: column;
+  width: 33.33%;
+  padding: 8px;
+}
+
+.latest-news-element-style {
+  width: 100%;
+  height: 135px;
+  padding-bottom: 8px;
+}
+
+.investment-wrapper-div {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.investment-story-first-div {
+  width: 33.33%;
+  padding: 8px;
+}
+
+.story-investment-2-name {
+  background: #f42;
+  color: #fff;
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  margin: 0 !important;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+
+.story-investment-name-mobile {
+  display: none;
+}
+
+.most-popular-first-div {
+  flex-direction: row;
+}
