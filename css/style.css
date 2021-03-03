@@ -564,6 +564,10 @@
   margin-right: 16px;
 }
 
+.latest-deal-ul{
+  flex-direction: column;
+}
+
 .latest-deal-column-div {
   flex-direction: column;
 }
@@ -621,3 +625,44 @@
   text-align: center;
   width: 40px;
 }
+
+
+.footer-links-menu{
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.footer-links-menu li{
+  font-size: 17px;
+  margin: 4px;
+}
+
+.footer-links-menu-anchor{
+  color: #aaa;
+}
+
+.footer-links-menu-anchor:hover{
+  color: #fff;
+}
+
+.copy-right{
+  background: #000;
+  color: #aaa;
+  font-size: 14px;
+  padding: 2.5em 0;
+}
+
+
+.copy-right-ul{
+  justify-content: center;
+}
+
+.copy-right-ul li{
+  padding: 2px;
+}
+
+.tnw-copyright-logo{
+    height: 9px;
+    margin-right: 1px;
+}
+
