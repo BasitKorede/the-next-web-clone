@@ -9,84 +9,66 @@
   </head>
   <body>
     <nav class="nav-bar display-flex">
-      <div>
-        <a href="#" class="tnw-img-anchore">
+      <div class="tnw-img-anchor-div">
+        <a href="#" class="tnw-img-anchor">
           <img class="tnw-image" alt="The Next Web" src="./images/tnw.svg" />
         </a>
       </div>
-      <ul class="medium-screen-navigation display-none">
-        <li>
-          <a href="">News</a>
-        </li>
-        <li>
-          <a href="">Events ▾</a>
-          <ul class="nav-tnw-dropdown-menu">
-            <li>
-              <a href="#">TNW2020</a>
-            </li>
-            <li>
-              <a href="#">Couch Conferences</a>
-            </li>
-          </ul>
-        </li>
+      <div class="medium-screen-navigation-wrapper display-none">
+        <ul class="medium-screen-navigation-wrapper">
+          <li>
+            <a href="" class="medium-screen-navigation-anchor active-text">News</a>
+          </li>
+          <li>
+            <a href="" class="medium-screen-navigation-anchor">Events</a>
+          </li>
 
-        <li>
-          <a href="">Business ▾</a>
-          <ul class="nav-tnw-dropdown-menu">
-            <li>
-              <a href="#">Index</a>
-            </li>
-            <li>
-              <a href="#">Programs</a>
-            </li>
-          </ul>
-        </li>
+          <li>
+            <a href="" class="medium-screen-navigation-anchor">Business</a>
+          </li>
 
-        <li>
-          <a href="#"></a>
-        </li>
+          <li>
+            <a href="#" class="medium-screen-navigation-anchor">AMAs</a>
+          </li>
 
-        <li>
-          <a href="#">AMAs</a>
-        </li>
+          <li>
+            <a href="#" class="medium-screen-navigation-anchor">Spaces</a>
+          </li>
 
-        <li>
-          <a href="#">Spaces</a>
-        </li>
-
-        <li>
-          <a href="#">Terms & Conditions</a>
-        </li>
-        <li>
-          <ul class="display-flex end-nav">
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Advertise</a>
-            </li>
-            <li>
-              <a href="">Job</a>
-            </li>
-            <li>
-              <a href="#">contact</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-
-      <div class="below-nav display-none">
-        <ul class="nav-sections">
-          <li class="nav-sections-section"><a href="">Latest</a></li>
-          <li class="nav-sections-section"><a href="">Hard Fork</a></li>
-          <li class="nav-sections-section"><a href="">Plugged</a></li>
-          <li class="nav-sections-section"><a href="">ReadMe</a></li>
-          <li class="nav-sections-section"><a href="">Growth Quarters</a></li>
-          <li class="nav-sections-section"><a href="">Shift</a></li>
-          <li class="nav-sections-section"><a href="">Neural</a></li>
+          <li>
+            <a href="#" class="medium-screen-navigation-anchor">Terms & Conditions</a>
+          </li>
+        </ul>
+        <ul class="display-flex end-nav">
+          <li>
+            <a href="#" class="medium-screen-navigation-anchor">About</a>
+          </li>
+          <li>
+            <a href="#" class="medium-screen-navigation-anchor">Advertise</a>
+          </li>
+          <li>
+            <a href="#" class="medium-screen-navigation-anchor">Job</a>
+          </li>
+          <li>
+            <a href="#" class="medium-screen-navigation-anchor">contact</a>
+          </li>
         </ul>
       </div>
 
+      <div class="below-nav  display-none">
+        <ul class="nav-sections display-flex">
+          <li class="nav-sections-li"><a href="" class="nav-sections-li-anchor">Latest</a></li>
+          <li class="nav-sections-li"><a href="" class="nav-sections-li-anchor">Hard Fork</a></li>
+          <li class="nav-sections-li"><a href="" class="nav-sections-li-anchor">Plugged</a></li>
+          <li class="nav-sections-li"><a href="" class="nav-sections-li-anchor">ReadMe</a></li>
+          <li class="nav-sections-li">
+            <a href="" class="nav-sections-li-anchor">Growth Quarters</a>
+          </li>
+           <li class="nav-sections-li"><a href="" class="nav-sections-li-anchor large-screen-size display-none">Shift</a></li>
+           <li class="nav-sections-li"><a href="" class="nav-sections-li-anchor large-screen-size display-none">Neural</a></li>
+              
+       </ul>
+     </div>
       <ul class="display-flex">
         <li>
           <a class="search-icon-anchor" href="#"><i class="icon search-icon"></i></a>
@@ -107,13 +89,13 @@
             <header class="header-wrapper">
               <a href="#" class="header-wrapper-anchor">
                 <h5>TECH</h5>
-                <h2>
+                <h2 class="medium-size-font-tech">
                   Hardware companies must stop competing and collaborate to prevent future pandemics
                 </h2>
                 <ul class="display-flex">
                   <li class="header-list-item">by The Conversation</li>
                   <li class="header-list-item">1 day ago</li>
-                  <li class="header-list-item">0</li>
+                  <li class="header-list-item number">0</li>
                 </ul>
               </a>
             </header>
@@ -130,7 +112,7 @@
                   <ul class="display-flex header-ul">
                     <li class="header-list-item">by Boris Veldhuijzen van Zaten</li>
                     <li class="header-list-item">1 day ago</li>
-                    <li class="header-list-item">7</li>
+                    <li class="header-list-item number">7</li>
                   </ul>
                 </a>
               </header>
@@ -149,11 +131,11 @@
                   <h2 class="medium-size-font medium-font-size-style display-none">
                     create‘mobile surveillance machines
                   </h2>
-                  
+
                   <ul class="display-flex header-ul">
                     <li class="header-list-item">by Thomas Macauly</li>
                     <li class="header-list-item">2 day ago</li>
-                    <li class="header-list-item">0</li>
+                    <li class="header-list-item number">0</li>
                   </ul>
                 </a>
               </header>
@@ -1176,6 +1158,9 @@
         <ul class="display-flex latest-deal-ul">
           <li class="latest-deal-li">
             <div class="latest-deal-div display-flex">
+              <div class="edge-div">
+                <p class="percentage-off">92% off</p>
+              </div>
               <a href="" class="latest-deal-1-image latest-deal-image-style"></a>
 
               <div class="disolay-flex latest-deal-column-div">
@@ -1197,6 +1182,9 @@
               <a href="" class="latest-deal-2-image latest-deal-image-style"></a>
 
               <div class="disolay-flex latest-deal-column-div">
+                <div class="edge-div">
+                  <p class="percentage-off">92% off</p>
+                </div>
                 <h4 class="story-title">
                   <a href="#" class="latest-deal-h4-anchor">
                     VANKYO Performance V600 Native 1080P LED Projector
@@ -1212,8 +1200,10 @@
 
           <li class="latest-deal-li">
             <div class="latest-deal-div display-flex">
+              <div class="edge-div">
+                <p class="percentage-off">98% off</p>
+              </div>
               <a href="" class="latest-deal-3-image latest-deal-image-style"></a>
-
               <div class="disolay-flex latest-deal-column-div">
                 <h4 class="story-title">
                   <a href="#" class="latest-deal-h4-anchor">
@@ -1231,7 +1221,9 @@
           <li class="latest-deal-li">
             <div class="latest-deal-div display-flex">
               <a href="" class="latest-deal-4-image latest-deal-image-style"></a>
-
+              <div class="edge-div">
+                <p class="percentage-off">99% off</p>
+              </div>
               <div class="disolay-flex latest-deal-column-div">
                 <h4 class="story-title">
                   <a href="#" class="latest-deal-h4-anchor">
@@ -1248,8 +1240,10 @@
 
           <li class="latest-deal-li">
             <div class="latest-deal-div display-flex">
+              <div class="edge-div">
+                <p class="percentage-off">80% off</p>
+              </div>
               <a href="" class="latest-deal-5-image latest-deal-image-style"></a>
-
               <div class="disolay-flex latest-deal-column-div">
                 <h4 class="story-title">
                   <a href="#" class="latest-deal-h4-anchor">
@@ -1266,6 +1260,9 @@
 
           <li class="latest-deal-li">
             <div class="latest-deal-div display-flex">
+              <div class="edge-div">
+                <p class="percentage-off">96% off</p>
+              </div>
               <a href="" class="latest-deal-6-image latest-deal-image-style"></a>
 
               <div class="disolay-flex latest-deal-column-div">
@@ -1285,8 +1282,10 @@
           <li class="latest-deal-li">
             <div class="latest-deal-div display-flex">
               <a href="" class="latest-deal-7-image latest-deal-image-style"></a>
-
-              <div class="disolay-flex latest-deal-column-div">
+              <div class="edge-div">
+                <p class="percentage-off">90% off</p>
+              </div>
+              <div class="display-flex latest-deal-column-div">
                 <h4 class="story-title">
                   <a href="#" class="latest-deal-h4-anchor">
                     Elocance Audio Reading App: Lifetime Subscription
@@ -1303,7 +1302,9 @@
           <li class="latest-deal-li">
             <div class="latest-deal-div display-flex">
               <a href="" class="latest-deal-8-image latest-deal-image-style"></a>
-
+              <div class="edge-div">
+                <p class="percentage-off">92% off</p>
+              </div>
               <div class="disolay-flex latest-deal-column-div">
                 <h4 class=" story-title">
                   <a href="#" class="latest-deal-h4-anchor">
@@ -1362,12 +1363,6 @@
 
             <li class="footer-ul-li">
               <a href="#" class="footer-icon-anchor">
-                <i class="icon rss-light-icon"></i>
-              </a>
-            </li>
-
-            <li class="footer-ul-li">
-              <a href="#" class="footer-icon-anchor">
                 <i class="icon mail-light-icon"></i>
               </a>
             </li>
@@ -1393,7 +1388,7 @@
           <li>
             © 2006–2021 The Next Web B.V.
           </li>
-          
+
           <li>
             Made with 3 in Amsterdam.
           </li>

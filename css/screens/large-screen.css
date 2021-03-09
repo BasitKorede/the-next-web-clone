@@ -1,0 +1,107 @@
+.tnw-img-anchor {
+  display: none;
+}
+
+.tnw-image {
+  display: none;
+}
+
+.medium-screen-navigation-wrapper {
+  padding: 3px 8px;
+}
+
+.below-nav {
+  padding: 3px 16px;
+}
+
+.large-screen-size {
+  display: flex;
+}
+
+.medium-size-font-tech {
+  font-size: 50px;
+}
+
+.medium-size-font {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.latest-news-element-wrapper {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.latest-news-list-item {
+  flex-direction: column;
+  width: 25%;
+  padding: 12px;
+}
+
+.latest-news-element-style {
+  width: 100%;
+  height: 10em;
+  padding-bottom: 8px;
+}
+
+.investment-wrapper-div {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.story-investment-2-name {
+  background: #f42;
+  color: #fff;
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  margin: 0 !important;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+
+.story-investment-name-mobile {
+  display: none;
+}
+
+.investment-story-first-div {
+  width: 25%;
+  padding: 8px;
+  display: block;
+}
+
+.most-popular-first-div {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.most-popular-section {
+  width: 33.333%;
+  padding: 12px;
+}
+
+.latest-deal-ul {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.latest-deal-li {
+  width: 25%;
+  padding: 8px;
+}
+
+.latest-deal-div {
+  flex-direction: column;
+}
+
+.latest-deal-image-style {
+  width: 100%;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding-top: 67%;
+  margin-bottom: 8px;
+}
