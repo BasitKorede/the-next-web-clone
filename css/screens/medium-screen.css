@@ -15,6 +15,7 @@
   padding: 16px 20px;
   width: 106px;
   will-change: height;
+  z-index: 2;
 }
 
 .tnw-image {
@@ -58,7 +59,11 @@
   display: flex;
   background-color: #fff;
   align-items: center;
-  padding: 8px 0 8px 14%;
+  padding: 8px 0 24px 14%;
+}
+
+.nav-hamburger {
+  display: none;
 }
 
 .nav-sections-li {
@@ -70,21 +75,37 @@
   color: #666;
 }
 
+.talent-in-netherlands {
+  height: 38px;
+  margin-bottom: 25px;
+}
+
 .main-article-wrapper {
   flex-direction: row;
   width: 100%;
+  margin-top: 11.5%;
+  padding: 0;
 }
 
 .tech-article {
   width: 66.666%;
   padding: 4px;
-  height: 63vh;
+  height: 60vh;
 }
 
 .medium-size-main-article-style {
   flex-direction: column;
   width: 33.333%;
+}
+
+.lazy-article {
   padding: 4px;
+  height: 30vh;
+}
+
+.amazon-article {
+  padding: 4px;
+  height: 30vh;
 }
 
 .tech-article-div {
@@ -94,12 +115,12 @@
 
 .lazy-article-div {
   width: 100%;
-  height: 30vh;
+  height: 100%;
 }
 
 .amazon-article-div {
   width: 100%;
-  height: 30vh;
+  height: 100%;
 }
 
 .medium-size-font-tech {

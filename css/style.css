@@ -1,5 +1,14 @@
+.nav {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100px;
+  top: 0;
+}
+
 .nav-bar {
   background-color: #fff;
+  justify-content: space-between;
 }
 
 .display-flex {
@@ -24,6 +33,15 @@
   display: none;
 }
 
+.nav-icon-ul {
+  justify-content: flex-end;
+}
+
+.nav-icon-li {
+  border-left: 1px solid #eee;
+  float: right;
+}
+
 .search-icon-anchor {
   display: block;
   height: 48px;
@@ -31,17 +49,56 @@
   width: 48px;
 }
 
-.nav-hamburger span {
+.nav-hamburger {
+  display: block;
+  height: 48px;
+  width: 48px;
+  transition: transform 0.4s;
+  opacity: 1 !important;
+  position: relative;
+}
+
+.nav-hamburger-span {
+  transition: 0.4s;
   background-color: #f42;
   display: block;
   height: 2px;
   left: 14px;
   margin-top: -1px;
+  position: absolute;
   top: 50%;
+  width: 20px;
+}
+
+.nav-hamburger-span:first-child {
+  transform: translateY(-6px);
+}
+
+.nav-hamburger-span:last-child {
+  transform: translateY(6px);
 }
 
 .main-article-wrapper {
   flex-direction: column;
+}
+
+.talent-in-netherlands-wrapper {
+  display: block;
+}
+
+.talent-in-netherlands {
+  box-shadow: 0 16px 48px rgb(0 0 0 / 15%);
+  line-height: 20px;
+  background: #fd3;
+  color: #000;
+  width: 100%;
+  text-align: center;
+  height: 48px;
+  margin-bottom: 20px;
+}
+
+.nav-message {
+  padding: 15px 0 24px;
 }
 
 .width-100-percent {
@@ -105,7 +162,7 @@
   color: #fffaf8;
 }
 
-.latest-new-section {
+.latest-news-section {
   margin-right: auto;
   margin-left: auto;
 }
@@ -123,7 +180,7 @@
 }
 
 .latest-news-header {
-  margin-bottom: 24px;
+  margin: 24px 0;
 }
 
 .google-assistant-anchor {

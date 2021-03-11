@@ -12,9 +12,22 @@
 
 .below-nav {
   padding: 3px 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-article-wrapper {
+  flex-direction: row;
+  width: 100%;
+  margin-top: 8%;
+  padding: 0;
 }
 
 .large-screen-size {
+  display: flex;
+}
+
+.larger-screen-flex-display {
   display: flex;
 }
 
