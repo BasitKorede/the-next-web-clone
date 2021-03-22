@@ -1,0 +1,753 @@
+.nav {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100px;
+  top: 0;
+}
+
+.nav-bar {
+  background-color: #fff;
+  justify-content: space-between;
+}
+
+.medium-screen-navigation-anchor {
+  font-size: 0.9em;
+  color: #aaa;
+  font-weight: bolder;
+}
+
+.medium-screen-navigation-anchor:hover {
+  color: #fff;
+}
+
+.nav-sections-li-anchor {
+  color: #666;
+  opacity: 0.7;
+}
+
+.nav-sections-li-anchor:hover {
+  color: #000;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.tnw-img-anchor {
+  background-color: #000;
+  padding: 16px 20px;
+}
+
+.tnw-image {
+  width: 70px;
+  margin-top: 5px;
+}
+
+.display-none {
+  display: none;
+}
+
+.below-nav {
+  display: none;
+}
+
+.nav-icon-ul {
+  justify-content: flex-end;
+}
+
+.nav-icon-li {
+  border-left: 1px solid #eee;
+  float: right;
+}
+
+.search-icon-anchor {
+  display: block;
+  height: 48px;
+  padding: 16px;
+  width: 48px;
+}
+
+.nav-hamburger {
+  display: block;
+  height: 48px;
+  width: 48px;
+  transition: transform 0.4s;
+  opacity: 1 !important;
+  position: relative;
+}
+
+.nav-hamburger-span {
+  transition: 0.4s;
+  background-color: #f42;
+  display: block;
+  height: 2px;
+  left: 14px;
+  margin-top: -1px;
+  position: absolute;
+  top: 50%;
+  width: 20px;
+}
+
+.nav-hamburger-span:first-child {
+  transform: translateY(-6px);
+}
+
+.nav-hamburger-span:last-child {
+  transform: translateY(6px);
+}
+
+.talent-in-netherlands-wrapper {
+  display: block;
+}
+
+.talent-in-netherlands {
+  box-shadow: 0 16px 48px rgb(0 0 0 / 15%);
+  line-height: 20px;
+  background: #fd3;
+  color: #000;
+  width: 100%;
+  text-align: center;
+  height: 48px;
+  margin-bottom: 20px;
+}
+
+.nav-message {
+  font-size: 14px;
+  padding-top: 4px;
+}
+
+.main-article-wrapper {
+  margin-top: 12%;
+}
+
+.width-100-percent {
+  width: 100%;
+}
+
+.tech-article-div {
+  background: url(../images/tech.jpg) no-repeat 0%;
+}
+
+.lazy-article-div {
+  background: url(../images/lazy.png) no-repeat 0%;
+}
+
+.amazon-article-div {
+  background: url(../images/amazon.png) no-repeat 0%;
+}
+
+.article-positioning {
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  height: 150px;
+  margin-top: 10px;
+  padding: 0 5px 0 5px;
+  width: 100%;
+}
+
+.header-anchor {
+  color: #f00;
+  font-size: 25px;
+}
+
+.header-icon {
+  height: 16px;
+  margin-left: 2px;
+  width: 16px;
+}
+
+.header-anchor:hover path {
+  stroke: #000;
+}
+
+.header-wrapper {
+  color: #fff;
+  bottom: 4px;
+  left: 4px;
+  padding: 14px 12px;
+  position: absolute;
+  right: 4px;
+}
+
+.header-wrapper-anchor {
+  color: #fffaf8;
+}
+
+.latest-news-section {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.latest-news-list-item {
+  margin-bottom: 8px;
+}
+
+.header-list-item {
+  margin: 0 30px 0 0;
+}
+
+.latest-news-header {
+  margin: 24px 0;
+}
+
+.google-assistant-anchor {
+  background-image: url(../images/latest-news-image-1.webp);
+}
+
+.canada-anchor {
+  background-image: url(../images/latest-news-image-2.jpg);
+}
+
+.remote-onboarding-anchor {
+  background-image: url(../images/latest-news-image-4.webp);
+}
+
+.whatsapp-model-anchor {
+  background-image: url(../images/latest-news-image-3.jpg);
+}
+
+.Tesla-anchor {
+  background-image: url(../images/latest-news-image-5.webp);
+}
+
+.elon-mosk-anchor {
+  background-image: url(../images/latest-news-image-6.jpg);
+}
+
+.hardest-game-anchor {
+  background-image: url(../images/latest-news-image-7.jpg);
+}
+
+.gravitational-lenses-anchor {
+  background-image: url(../images/latest-news-image-8.jpg);
+}
+
+.latest-news-element-style {
+  width: 75px;
+  height: 75px;
+  min-width: 75px;
+  display: block;
+  background-color: #000;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.latest-news-article {
+  margin-left: 16px;
+}
+
+.article-header-anchor {
+  color: #000;
+}
+
+.article-header-anchor:hover {
+  color: #f00;
+  text-decoration: underline rgba(255, 138, 71, 0.445);
+}
+
+.article-details {
+  font-size: 12px;
+  margin: 2px;
+}
+
+.article-details li {
+  margin: 2px;
+  color: #808080;
+}
+
+.article-details-name {
+  color: #808080;
+}
+
+.article-details-name:hover {
+  color: #080808;
+}
+
+.latest-funding-anchor {
+  color: #f00;
+  font-size: 20px;
+  margin: 8px;
+  display: block;
+}
+
+.latest-funding-anchor:hover {
+  color: #000;
+}
+
+.investment-wrapper-div {
+  width: 100%;
+}
+
+.investment-story-first-div {
+  min-height: 60px;
+  position: relative;
+  width: 100%;
+  margin: 10px 0 20px 0;
+}
+
+.investment-story-second-div {
+  background: #fffaf8;
+}
+
+.investment-anchor {
+  position: relative;
+  display: block;
+}
+
+.investment-story-image {
+  width: 60px;
+  min-width: 60px;
+  max-width: 60px;
+  height: 60px;
+  min-height: 60px;
+  max-height: 60px;
+  margin: 10.6666666667px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.story-investment-name {
+  background: #f42;
+  color: #fff;
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  margin: 0 !important;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.story-investment-name-mobile {
+  background: #f42;
+  color: #fff;
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  margin: 0 !important;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.story-investmentCard-details {
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  color: #000;
+  background: rgba(255, 68, 34, 0.08);
+  margin: 0;
+  font-weight: 600;
+}
+
+.investment-story-third-div-anchor {
+  padding: 8px 0 8px 2em;
+  position: relative;
+  font-size: 14px;
+  color: #555;
+  margin-right: 1em;
+  display: block;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.investment-story-unordered-list {
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.investment-story-unordered-list-anchor {
+  color: #555;
+  font-size: 90%;
+}
+
+.story-source {
+  color: #aaa;
+  font-size: 90%;
+}
+
+.most-popular-section {
+  width: 100%;
+}
+
+.most-popular-first-div {
+  margin-bottom: 40px;
+}
+
+.most-popular-h2 {
+  margin-bottom: 14px;
+}
+
+.most-popular-article {
+  height: 0;
+  padding-top: 75%;
+  position: relative;
+  width: 100%;
+}
+
+.image-div {
+  background-image: url(../images/hard-fork-img.jpg);
+}
+
+.image-div-2 {
+  background-image: url(../images/apps-section-image.png);
+}
+
+.image-div-3 {
+  background-image: url(../images/gear-img.jpg);
+}
+
+.image-div-4 {
+  background-image: url(../images/spider-man-img.png);
+}
+
+.image-div-5 {
+  background-image: url(../images/creative.webp);
+}
+
+.image-div-6 {
+  background-image: url(../images/podium.webp);
+}
+
+.image-div-7 {
+  background-image: url(../images/insight.webp);
+}
+
+.image-div-8 {
+  background-image: url(../images/launch.jpg);
+}
+
+.image-div-9 {
+  background-image: url(../images/distract.jpg);
+}
+
+.image-style {
+  width: 100%;
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.most-popular-header {
+  bottom: 0;
+  left: 0;
+  padding: 14px;
+  position: absolute;
+  right: 0;
+}
+
+.most-popular-h5 {
+  color: #fff;
+  font-size: 15px;
+}
+
+.most-popular-title {
+  font-size: 20px;
+}
+
+.details {
+  color: hsla(0, 0%, 100%, 0.6);
+  margin-right: 15px;
+}
+
+.latest-li {
+  background-color: rgba(255, 68, 34, 0.08);
+}
+
+.latest-article {
+  justify-content: space-between;
+  padding-top: 2px;
+}
+
+.latest-section-header {
+  color: #f42;
+  font-size: 15px;
+  padding: 4px 8px;
+}
+
+.latest-section-title {
+  max-height: 56px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  padding: 4px 8px;
+}
+
+.latest-section-anchor {
+  color: #f00;
+}
+
+.latest-section-anchor:hover {
+  text-decoration: underline rgba(255, 138, 71, 0.445);
+}
+
+.latest-image-1 {
+  background-image: url(../images/latest-image-1.jpg);
+}
+
+.latest-image-2 {
+  background-image: url(../images/latest-image-2.png);
+}
+
+.latest-image-3 {
+  background-image: url(../images/latest-image-3.jpg);
+}
+
+.latest-image-4 {
+  background-image: url(../images/tech.jpg);
+}
+
+.latest-image-5 {
+  background-image: url(../images/latest-image-5.jpg);
+}
+
+.latest-image-6 {
+  background-image: url(../images/latest-image-6.webp);
+}
+
+.latest-image-7 {
+  background-image: url(../images/lazy.png);
+}
+
+.latest-image-8 {
+  background-image: url(../images/latest-image-8.jpg);
+}
+
+.latest-image-9 {
+  background-image: url(../images/latest-image-9.jpg);
+}
+
+.latest-image-style {
+  flex: 0 0 96px;
+  background-color: #000;
+  background-position: 50%;
+  background-size: cover;
+  height: 96px;
+  width: 96px;
+}
+
+.section-headline {
+  border-bottom: 1px solid #eee;
+}
+
+.section-headline-title {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.section-headline-anchor {
+  color: #555;
+  display: block;
+  padding: 6px 0 6px 14px;
+  position: relative;
+}
+
+.section-headline-anchor:hover {
+  color: #000;
+}
+
+.section-headline-anchor::before {
+  background-color: #f42;
+  border-radius: 50%;
+  content: '';
+  display: block;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 13px;
+  width: 4px;
+}
+
+.latest-deal-header {
+  justify-content: space-between;
+}
+
+.latest-deal-anchor {
+  font-size: 15px;
+  color: #f00;
+}
+
+.latest-deal-anchor:hover {
+  color: #000;
+}
+
+.latest-deal-div {
+  margin-top: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.latest-deal-1-image {
+  background-image: url(../images/pad-controller.jpg);
+  display: block;
+}
+
+.latest-deal-2-image {
+  background-image: url(../images/projector.jpg);
+  display: block;
+}
+
+.latest-deal-3-image {
+  background-image: url(../images/after-click.jpg);
+  display: block;
+}
+
+.latest-deal-4-image {
+  background-image: url(../images/cyber.jpg);
+  display: block;
+}
+
+.latest-deal-5-image {
+  background-image: url(../images/vpn.jpg);
+  display: block;
+}
+
+.latest-deal-6-image {
+  background-image: url(../images/x-music.jpg);
+  display: block;
+}
+
+.latest-deal-7-image {
+  background-image: url(../images/elocance.jpg);
+  display: block;
+}
+
+.latest-deal-8-image {
+  background-image: url(../images/certification.jpg);
+  display: block;
+}
+
+.latest-deal-image-style {
+  flex: 0 0 96px;
+  background-color: #aaa;
+  background-position: 50%;
+  background-size: cover;
+  height: 75px;
+  width: 75px;
+}
+
+.story-title {
+  word-wrap: break-word;
+  margin-left: 8px;
+}
+
+.latest-deal-h4-anchor {
+  color: #000;
+  font-size: 15.5px;
+  margin-right: 16px;
+}
+
+.latest-deal-li {
+  position: relative;
+}
+
+.latest-deal-h4-anchor:hover {
+  color: #f42;
+  text-decoration: underline rgb(255, 104, 34);
+}
+
+.story-dealPrice {
+  padding-top: 4px;
+}
+
+.old-dealPrice {
+  text-decoration: line-through;
+  color: #aaa;
+  margin-right: 4px;
+  margin-left: 8px;
+  font-size: 13px;
+}
+
+.new-dealPrice {
+  font-size: 14px;
+}
+
+.percentage-off {
+  display: none;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer-fist-div {
+  background: #131313;
+  padding: 2.5em 0;
+}
+
+.icon-wrapper {
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 0 20px;
+}
+
+.footer-div-ul {
+  justify-content: center;
+}
+
+.flex-wrap-sm {
+  flex-wrap: wrap;
+}
+
+.footer-ul-li {
+  margin: 0 3px;
+}
+
+.footer-icon-anchor {
+  background: #333;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  padding: 12px;
+  text-align: center;
+  width: 40px;
+}
+
+.footer-links-menu {
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.footer-links-menu li {
+  font-size: 17px;
+  margin: 8px;
+}
+
+.footer-links-menu-anchor {
+  color: #aaa;
+}
+
+.footer-links-menu-anchor:hover {
+  color: #fff;
+}
+
+.copy-right {
+  background: #000;
+  color: #aaa;
+  font-size: 14px;
+  padding: 2.5em 0;
+}
+
+.copy-right-ul {
+  justify-content: center;
+}
+
+.copy-right-ul li {
+  padding: 2px;
+}
+
+.column-flex-direction-sm {
+  flex-direction: column;
+}
+
+.tnw-copyright-logo {
+  height: 9px;
+  margin-right: 1px;
+}
