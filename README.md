@@ -1,20 +1,28 @@
 # Project Name
 
-> One paragraph statement about the project.
+> This project follows the guideline of [THE ODIN PROJECT](https://www.theodinproject.com/courses/html-and-css/lessons/grid) under the (course HTML and CSS) to clone a New York Times page [THE NEXT WEB ](https://www.theodinproject.com/courses/html-and-css/lessons/responsive-design).
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/tnw-livedemo-img.png)
 
-Additional description about the project and its features.
+This Project is an assignment on RESPONSIVE DESIGN in a webpage, this is to test students ability on positioning of HTML elements.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML,
+  - Semantic HTML
+  - HTML Heading and Sectioning
+- CSS
+  - Flexbox
+  - Floating Element
+  - Positioning
+  - Background properties
+  - Pseudo classes
+  - media Queries
+  - Transform properties
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://basit-next-web-clone.netlify.app/)
 
 ### Development (Running locally)
 
@@ -70,9 +78,7 @@ npm run html-validator
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Arigbabuwo Basit: [@BasitKorede](https://github.com/BasitKorede)
 
 ## 🤝 Contributing
 
@@ -86,9 +92,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- [@bolah2009](https://github.com/bolah2009)
+- [@adejam](https://github.com/adejam)
+- [THE ODIN PROJECT](https://www.theodinproject.com/courses/html-and-css/lessons/grid)
+- [TNW](https://www.theodinproject.com/courses/html-and-css/lessons/responsive-design)
 
 ## 📝 License
 
