@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/index.css" />
     <title>TNW</title>
+    <link rel="icon" type="image/png" href="./images/tnw-link-icon.png" />
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <nav class="nav">
-      <div class="display-flex nav-bar">
+      <div class="display-flex nav-bar column-direction-md">
         <div class="tnw-img-anchor-div">
           <a href="#" class="tnw-img-anchor">
             <img class="tnw-image" alt="The Next Web" src="./images/tnw.svg" />
           </a>
         </div>
-        <div class="medium-screen-navigation-wrapper display-none">
+        <div class="medium-screen-navigation-wrapper  display-none">
           <ul class="medium-screen-navigation-wrapper">
             <li>
               <a href="" class="medium-screen-navigation-anchor active-text">News</a>
@@ -56,7 +57,7 @@
           </ul>
         </div>
 
-        <div class="below-nav  display-none">
+        <div class="below-nav display-flex-md  display-none">
           <ul class="nav-sections display-flex larger-screen-flex-display">
             <li class="nav-sections-li"><a href="" class="nav-sections-li-anchor">Latest</a></li>
             <li class="nav-sections-li"><a href="" class="nav-sections-li-anchor">Hard Fork</a></li>
@@ -66,7 +67,11 @@
               <a href="" class="nav-sections-li-anchor">Growth Quarters</a>
             </li>
             <li class="nav-sections-li">
-              <a href="" class="nav-sections-li-anchor large-screen-size display-none">Shift</a>
+              <a
+                href=""
+                class="nav-sections-li-anchor large-screen-size display-none larger-screen-flex-display"
+                >Shift</a
+              >
             </li>
             <li class="nav-sections-li">
               <a href="" class="nav-sections-li-anchor large-screen-size display-none">Neutral</a>
@@ -74,17 +79,21 @@
           </ul>
 
           <div>
-            <a class="search-icon-anchor larger-screen-flex-display display-none" href="#"
+            <a
+              class="search-icon-anchor display-none-md larger-screen-flex-display display-none"
+              href="#"
               ><i class="icon search-icon"></i
             ></a>
           </div>
         </div>
         <ul class="display-flex nav-icon-ul">
           <li class="nav-icon-li">
-            <a class="search-icon-anchor" href="#"><i class="icon search-icon"></i></a>
+            <a class="search-icon-anchor display-none-md" href="#"
+              ><i class="icon search-icon"></i
+            ></a>
           </li>
           <li>
-            <a class="nav-hamburger" href="#">
+            <a class="nav-hamburger display-none-md" href="#">
               <span class="nav-hamburger-span"></span>
               <span class="nav-hamburger-span"></span>
               <span class="nav-hamburger-span"></span>
@@ -101,7 +110,7 @@
       </a>
     </nav>
     <main>
-      <div class="main-article-wrapper display-flex">
+      <div class="main-article-wrapper row-direction-md display-flex column-flex-direction-sm">
         <article class="tech-article">
           <div class="tech-article-div article-positioning">
             <header class="header-wrapper">
@@ -113,14 +122,14 @@
                 <ul class="display-flex">
                   <li class="header-list-item">by The Conversation</li>
                   <li class="header-list-item">1 day ago</li>
-                  <li class="header-list-item number">0</li>
+                  <li class="header-list-item display-none-md">0</li>
                 </ul>
               </a>
             </header>
           </div>
         </article>
 
-        <div class="medium-size-main-article-style">
+        <div class="medium-size-main-article-style column-direction-md">
           <article class="lazy-article">
             <div class="lazy-article-div article-positioning">
               <header class="header-wrapper">
@@ -141,7 +150,7 @@
             <div class="amazon-article-div article-positioning">
               <header class="header-wrapper">
                 <a href="#" class="header-wrapper-anchor">
-                  <h2 class="medium-size-font amazon-details">
+                  <h2 class="medium-size-font display-none-md">
                     Privacy advocates say Amazon’s plans to put AI cameras in vans will create
                     ‘mobile surveillance machines
                   </h2>
@@ -150,7 +159,7 @@
                     create‘mobile surveillance machines
                   </h2>
 
-                  <ul class="display-flex header-ul">
+                  <ul class="display-flex header-ul row-direction-md flex-wrap-md">
                     <li class="header-list-item">by Thomas Macauly</li>
                     <li class="header-list-item">2 day ago</li>
                     <li class="header-list-item number">0</li>
@@ -164,12 +173,25 @@
 
       <section class="latest-new-section">
         <h2 class="latest-news-header">
-          <a href="#" class="header-anchor header-after"> Latest news </a>
+          <a href="#" class="header-anchor">
+            Latest news
+            <svg class="header-icon" viewBox="0 0 16 16">
+              <path
+                fill="none"
+                stroke="#F42"
+                stroke-width="3"
+                stroke-miterlimit="10"
+                d="M4.75 1.5l6.5 6.5-6.5 6.5"
+              />
+            </svg>
+          </a>
         </h2>
-        <ul class="latest-news-element-wrapper display-flex">
-          <li class="latest-news-list-item display-flex">
+        <ul
+          class="latest-news-element-wrapper row-direction-md display-flex flex-wrap-md column-flex-direction-sm"
+        >
+          <li class="latest-news-list-item column-direction-md">
             <a href="#" class="google-assistant-anchor latest-news-element-style"> </a>
-            <article class="latest-news-article">
+            <article class="latest-news-article column-flex-direction-sm">
               <h4 class="article-header">
                 <a href="#" class="article-header-anchor">
                   Here's an easy way to use google assitance on iOS
@@ -183,9 +205,9 @@
             </article>
           </li>
 
-          <li class="latest-news-list-item display-flex">
+          <li class="latest-news-list-item column-direction-md display-flex">
             <a href="#" class="canada-anchor latest-news-element-style"> </a>
-            <article class="latest-news-article">
+            <article class="latest-news-article column-flex-direction-sm">
               <h4 class="article-header">
                 <a href="" class="article-header-anchor">
                   canada refuses to learn what an ebike is - and it's gonna cause problems
@@ -198,9 +220,9 @@
               </ul>
             </article>
           </li>
-          <li class="latest-news-list-item display-flex">
+          <li class="latest-news-list-item column-direction-md display-flex">
             <a href="#" class="remote-onboarding-anchor latest-news-element-style"> </a>
-            <article class="latest-news-article">
+            <article class="latest-news-article column-flex-direction-sm">
               <h4 class="article-header">
                 <a href="#" class="article-header-anchor">
                   Remote onboarding isn't going away — so here's how to perfect it
@@ -213,9 +235,9 @@
               </ul>
             </article>
           </li>
-          <li class="latest-news-list-item display-flex">
+          <li class="latest-news-list-item column-direction-md display-flex">
             <a href="#" class="whatsapp-model-anchor latest-news-element-style"> </a>
-            <article class="latest-news-article">
+            <article class="latest-news-article column-flex-direction-sm">
               <h4 class="article-header">
                 <a href="" class="article-header-anchor">
                   Remote onboarding isn't going away — so here's how to perfect it
@@ -229,9 +251,9 @@
             </article>
           </li>
 
-          <li class="latest-news-list-item display-flex">
+          <li class="latest-news-list-item column-direction-md display-flex">
             <a href="#" class="Tesla-anchor latest-news-element-style"> </a>
-            <article class="latest-news-article">
+            <article class="latest-news-article column-flex-direction-sm">
               <h4 class="article-header">
                 <a href="" class="article-header-anchor">
                   Wait, what!? Tesla’s dangerous butterfly steering wheel is actually legal in the
@@ -246,9 +268,9 @@
             </article>
           </li>
 
-          <li class="latest-news-list-item display-flex">
+          <li class="latest-news-list-item column-direction-md display-flex">
             <a href="#" class="elon-mosk-anchor latest-news-element-style"> </a>
-            <article class="latest-news-article">
+            <article class="latest-news-article column-flex-direction-sm">
               <h4 class="article-header">
                 <a href="" class="article-header-anchor">
                   As Clubhouse gets a boost from Elon Musk, its audio partner's shares are soaring
@@ -262,9 +284,9 @@
             </article>
           </li>
 
-          <li class="latest-news-list-item display-flex">
+          <li class="latest-news-list-item column-direction-md display-flex">
             <a href="#" class="hardest-game-anchor latest-news-element-style"> </a>
-            <article class="latest-news-article">
+            <article class="latest-news-article column-flex-direction-sm">
               <h4 class="article-header">
                 <a href="" class="article-header-anchor">
                   How playing the hardest games I could find helped me take back my mental heimgh
@@ -278,9 +300,9 @@
             </article>
           </li>
 
-          <li class="latest-news-list-item display-flex">
+          <li class="latest-news-list-item column-direction-md display-flex">
             <a href="#" class="gravitational-lenses-anchor latest-news-element-style"> </a>
-            <article class="latest-news-article">
+            <article class="latest-news-article column-flex-direction-sm">
               <h4 class="article-header">
                 <a href="#" class="article-header-anchor">
                   AI detects 1,210 new potential gravitational lenses in the search for dark matter
@@ -297,12 +319,36 @@
       </section>
 
       <section>
-        <h2>
-          <a href="#" class="header-anchor header-after">
-            Latest funding rounds on Index.co
-          </a>
-        </h2>
-        <div class="investment-wrapper-div display-flex">
+        <header
+          class="display-flex latest-funding-header row-direction-md column-flex-direction-sm"
+        >
+          <h2>
+            <a href="#" class="header-anchor header-after">
+              Latest funding rounds on Index.co
+              <svg class="header-icon" viewBox="0 0 16 16">
+                <path
+                  fill="none"
+                  stroke="#F42"
+                  stroke-width="3"
+                  stroke-miterlimit="10"
+                  d="M4.75 1.5l6.5 6.5-6.5 6.5"
+                />
+              </svg>
+            </a>
+          </h2>
+          <ul class="latest-funding-div display-flex-md">
+            <li><a href="#" class="latest-funding-anchor"> Add info</a></li>
+            <li><a href="#" class="latest-funding-anchor">Get updates by email</a></li>
+            <li>
+              <a href="#" class="latest-funding-anchor latest-funding-anchor-last-child"
+                >See more</a
+              >
+            </li>
+          </ul>
+        </header>
+        <div
+          class="investment-wrapper-div row-direction-md display-flex flex-wrap-md column-flex-direction-sm"
+        >
           <div class="investment-story-first-div">
             <div class="investment-story-second-div">
               <a href="#" class="investment-anchor">
@@ -376,7 +422,7 @@
                   alt="image title"
                   class="investment-story-image"
                 />
-                <h4 class="story-investment-name-mobile">Mobile Premier League</h4>
+                <h4 class="story-investment-name-mobile display-none-md">Mobile Premier League</h4>
                 <h4 class="story-investment-2-name display-none">Mobile Premier...</h4>
               </a>
               <div class="story-investmentCard-details">
@@ -442,10 +488,23 @@
         </div>
       </section>
 
-      <div class="most-popular-first-div display-flex">
+      <div
+        class="most-popular-first-div row-direction-md display-flex flex-wrap-md column-flex-direction-sm"
+      >
         <section class="most-popular-section">
           <h2 class="most-popular-h2">
-            <a class="header-anchor header-after"> Hard Fork </a>
+            <a class="header-anchor header-after">
+              Hard Fork
+              <svg class="header-icon" viewBox="0 0 16 16">
+                <path
+                  fill="none"
+                  stroke="#F42"
+                  stroke-width="3"
+                  stroke-miterlimit="10"
+                  d="M4.75 1.5l6.5 6.5-6.5 6.5"
+                />
+              </svg>
+            </a>
           </h2>
           <ul>
             <li>
@@ -525,9 +584,20 @@
 
         <section class="most-popular-section">
           <h2 class="most-popular-h2">
-            <a class="header-anchor header-after"> APPS </a>
+            <a class="header-anchor header-after">
+              APPS
+              <svg class="header-icon" viewBox="0 0 16 16">
+                <path
+                  fill="none"
+                  stroke="#F42"
+                  stroke-width="3"
+                  stroke-miterlimit="10"
+                  d="M4.75 1.5l6.5 6.5-6.5 6.5"
+                />
+              </svg>
+            </a>
           </h2>
-          <ul>
+          <ul class="colunm-display-flex">
             <li>
               <article class="most-popular-article">
                 <div class="most-popular-second-div"></div>
@@ -605,7 +675,18 @@
 
         <section class="most-popular-section">
           <h2 class="most-popular-h2">
-            <a class="header-anchor header-after"> GEAR </a>
+            <a class="header-anchor header-after">
+              GEAR
+              <svg class="header-icon" viewBox="0 0 16 16">
+                <path
+                  fill="none"
+                  stroke="#F42"
+                  stroke-width="3"
+                  stroke-miterlimit="10"
+                  d="M4.75 1.5l6.5 6.5-6.5 6.5"
+                />
+              </svg>
+            </a>
           </h2>
           <ul>
             <li>
@@ -685,7 +766,18 @@
 
         <section class="most-popular-section">
           <h2 class="most-popular-h2">
-            <a class="header-anchor header-after"> TECH </a>
+            <a class="header-anchor header-after">
+              TECH
+              <svg class="header-icon" viewBox="0 0 16 16">
+                <path
+                  fill="none"
+                  stroke="#F42"
+                  stroke-width="3"
+                  stroke-miterlimit="10"
+                  d="M4.75 1.5l6.5 6.5-6.5 6.5"
+                />
+              </svg>
+            </a>
           </h2>
           <ul>
             <li>
@@ -765,7 +857,18 @@
 
         <section class="most-popular-section">
           <h2 class="most-popular-h2">
-            <a class="header-anchor header-after"> Creative </a>
+            <a class="header-anchor header-after">
+              Creative
+              <svg class="header-icon" viewBox="0 0 16 16">
+                <path
+                  fill="none"
+                  stroke="#F42"
+                  stroke-width="3"
+                  stroke-miterlimit="10"
+                  d="M4.75 1.5l6.5 6.5-6.5 6.5"
+                />
+              </svg>
+            </a>
           </h2>
           <ul>
             <li>
@@ -843,7 +946,18 @@
 
         <section class="most-popular-section">
           <h2 class="most-popular-h2">
-            <a class="header-anchor header-after">Podium</a>
+            <a class="header-anchor header-after"
+              >Podium
+              <svg class="header-icon" viewBox="0 0 16 16">
+                <path
+                  fill="none"
+                  stroke="#F42"
+                  stroke-width="3"
+                  stroke-miterlimit="10"
+                  d="M4.75 1.5l6.5 6.5-6.5 6.5"
+                />
+              </svg>
+            </a>
           </h2>
           <ul>
             <li>
@@ -923,7 +1037,18 @@
 
         <section class="most-popular-section">
           <h2 class="most-popular-h2">
-            <a class="header-anchor header-after"> Insights </a>
+            <a class="header-anchor header-after">
+              Insights
+              <svg class="header-icon" viewBox="0 0 16 16">
+                <path
+                  fill="none"
+                  stroke="#F42"
+                  stroke-width="3"
+                  stroke-miterlimit="10"
+                  d="M4.75 1.5l6.5 6.5-6.5 6.5"
+                />
+              </svg>
+            </a>
           </h2>
           <ul>
             <li>
@@ -1004,7 +1129,18 @@
 
         <section class="most-popular-section">
           <h2 class="most-popular-h2">
-            <a class="header-anchor header-after"> Launch </a>
+            <a class="header-anchor header-after">
+              Launch
+              <svg class="header-icon" viewBox="0 0 16 16">
+                <path
+                  fill="none"
+                  stroke="#F42"
+                  stroke-width="3"
+                  stroke-miterlimit="10"
+                  d="M4.75 1.5l6.5 6.5-6.5 6.5"
+                />
+              </svg>
+            </a>
           </h2>
           <ul>
             <li>
@@ -1084,7 +1220,18 @@
 
         <section class="most-popular-section">
           <h2 class="most-popular-h2">
-            <a class="header-anchor header-after">Distract</a>
+            <a class="header-anchor header-after"
+              >Distract
+              <svg class="header-icon" viewBox="0 0 16 16">
+                <path
+                  fill="none"
+                  stroke="#F42"
+                  stroke-width="3"
+                  stroke-miterlimit="10"
+                  d="M4.75 1.5l6.5 6.5-6.5 6.5"
+                />
+              </svg>
+            </a>
           </h2>
           <ul>
             <li>
@@ -1168,20 +1315,33 @@
       <section>
         <header class="display-flex latest-deal-header">
           <h2 class="">
-            <a href="" class="header-anchor header-after">Latest deals</a>
+            <a href="" class="header-anchor header-after"
+              >Latest deals
+              <svg class="header-icon" viewBox="0 0 16 16">
+                <path
+                  fill="none"
+                  stroke="#F42"
+                  stroke-width="3"
+                  stroke-miterlimit="10"
+                  d="M4.75 1.5l6.5 6.5-6.5 6.5"
+                />
+              </svg>
+            </a>
           </h2>
           <a href="" class="latest-deal-anchor">See all Deals</a>
         </header>
 
-        <ul class="display-flex latest-deal-ul">
+        <ul
+          class="display-flex latest-deal-ul row-direction-md flex-wrap-md column-flex-direction-sm"
+        >
           <li class="latest-deal-li">
-            <div class="latest-deal-div display-flex">
+            <div class="latest-deal-div column-direction-md display-flex">
               <div class="edge-div">
                 <p class="percentage-off">92% off</p>
               </div>
               <a href="" class="latest-deal-1-image latest-deal-image-style"></a>
 
-              <div class="disolay-flex latest-deal-column-div">
+              <div class="display-flex latest-deal-column-div column-flex-direction-sm">
                 <h4 class="story-title">
                   <a href="#" class="latest-deal-h4-anchor">
                     TourBox Neo: The Ultimate Controller for Creators
@@ -1196,10 +1356,10 @@
           </li>
 
           <li class="latest-deal-li">
-            <div class="latest-deal-div display-flex">
+            <div class="latest-deal-div column-direction-md display-flex  column-direction-md">
               <a href="" class="latest-deal-2-image latest-deal-image-style"></a>
 
-              <div class="disolay-flex latest-deal-column-div">
+              <div class="display-flex latest-deal-column-div column-flex-direction-sm">
                 <div class="edge-div">
                   <p class="percentage-off">92% off</p>
                 </div>
@@ -1217,12 +1377,12 @@
           </li>
 
           <li class="latest-deal-li">
-            <div class="latest-deal-div display-flex">
+            <div class="latest-deal-div column-direction-md display-flex">
               <div class="edge-div">
                 <p class="percentage-off">98% off</p>
               </div>
               <a href="" class="latest-deal-3-image latest-deal-image-style"></a>
-              <div class="disolay-flex latest-deal-column-div">
+              <div class="display-flex latest-deal-column-div column-flex-direction-sm">
                 <h4 class="story-title">
                   <a href="#" class="latest-deal-h4-anchor">
                     AfterClick Premium Pro Heatmap Analytics: Lifetime Subscription
@@ -1237,12 +1397,12 @@
           </li>
 
           <li class="latest-deal-li">
-            <div class="latest-deal-div display-flex">
+            <div class="latest-deal-div column-direction-md display-flex">
               <a href="" class="latest-deal-4-image latest-deal-image-style"></a>
               <div class="edge-div">
                 <p class="percentage-off">99% off</p>
               </div>
-              <div class="disolay-flex latest-deal-column-div">
+              <div class="display-flex latest-deal-column-div column-flex-direction-sm">
                 <h4 class="story-title">
                   <a href="#" class="latest-deal-h4-anchor">
                     The All-In-One 2021 Super-Sized Ethical Hacking Bundle
@@ -1257,12 +1417,12 @@
           </li>
 
           <li class="latest-deal-li">
-            <div class="latest-deal-div display-flex">
+            <div class="latest-deal-div column-direction-md display-flex">
               <div class="edge-div">
                 <p class="percentage-off">80% off</p>
               </div>
               <a href="" class="latest-deal-5-image latest-deal-image-style"></a>
-              <div class="disolay-flex latest-deal-column-div">
+              <div class="display-flex latest-deal-column-div column-flex-direction-sm">
                 <h4 class="story-title">
                   <a href="#" class="latest-deal-h4-anchor">
                     KeepSolid VPN Unlimited: Lifetime Subscription
@@ -1277,13 +1437,13 @@
           </li>
 
           <li class="latest-deal-li">
-            <div class="latest-deal-div display-flex">
+            <div class="latest-deal-div column-direction-md display-flex">
               <div class="edge-div">
                 <p class="percentage-off">96% off</p>
               </div>
               <a href="" class="latest-deal-6-image latest-deal-image-style"></a>
 
-              <div class="disolay-flex latest-deal-column-div">
+              <div class="display-flex latest-deal-column-div column-flex-direction-sm">
                 <h4 class="story-title">
                   <a href="#" class="latest-deal-h4-anchor">
                     The Ultimate Logic Pro X Music Production Bundle
@@ -1298,12 +1458,12 @@
           </li>
 
           <li class="latest-deal-li">
-            <div class="latest-deal-div display-flex">
+            <div class="latest-deal-div column-direction-md display-flex">
               <a href="" class="latest-deal-7-image latest-deal-image-style"></a>
               <div class="edge-div">
                 <p class="percentage-off">90% off</p>
               </div>
-              <div class="display-flex latest-deal-column-div">
+              <div class="display-flex latest-deal-column-div column-flex-direction-sm">
                 <h4 class="story-title">
                   <a href="#" class="latest-deal-h4-anchor">
                     Elocance Audio Reading App: Lifetime Subscription
@@ -1318,12 +1478,12 @@
           </li>
 
           <li class="latest-deal-li">
-            <div class="latest-deal-div display-flex">
+            <div class="latest-deal-div column-direction-md display-flex">
               <a href="" class="latest-deal-8-image latest-deal-image-style"></a>
               <div class="edge-div">
                 <p class="percentage-off">92% off</p>
               </div>
-              <div class="disolay-flex latest-deal-column-div">
+              <div class="display-flex latest-deal-column-div column-flex-direction-sm">
                 <h4 class=" story-title">
                   <a href="#" class="latest-deal-h4-anchor">
                     The Complete 2021 CompTIA Certification Training Bundle
@@ -1342,7 +1502,7 @@
     <footer class="footer">
       <div class="footer-fist-div">
         <div class="icon-wrapper">
-          <ul class="footer-div-ul display-flex">
+          <ul class="footer-div-ul display-flex flex-wrap-sm">
             <li class="footer-ul-li">
               <a href="#" class="footer-icon-anchor">
                 <i class="icon facebook-light-icon"></i>
@@ -1386,7 +1546,7 @@
             </li>
           </ul>
 
-          <ul class="footer-links-menu display-flex">
+          <ul class="footer-links-menu display-flex flex-wrap-sm">
             <li><a href="#" class="footer-links-menu-anchor">Events</a></li>
             <li><a href="#" class="footer-links-menu-anchor">About</a></li>
             <li><a href="#" class="footer-links-menu-anchor">Advertise</a></li>
@@ -1396,8 +1556,8 @@
         </div>
       </div>
 
-      <div class="copy-right">
-        <ul class="display-flex copy-right-ul">
+      <div class="copy-right row-direction-md">
+        <ul class="display-flex copy-right-ul flex-wrap-sm">
           <li>
             <a href="#" class="copy-right-anchor">
               <img src="./images/tnw.svg" alt="the next web logo" class="tnw-copyright-logo" />

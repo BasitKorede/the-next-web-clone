@@ -1,6 +1,3 @@
-.nav-bar {
-  flex-direction: column;
-}
 
 .tnw-img-anchor-div {
   left: 0;
@@ -51,19 +48,10 @@
   justify-content: space-between;
 }
 
-.search-icon-anchor {
-  display: none;
-}
-
 .below-nav {
-  display: flex;
   background-color: #fff;
   align-items: center;
   padding: 8px 0 24px 14%;
-}
-
-.nav-hamburger {
-  display: none;
 }
 
 .nav-sections-li {
@@ -80,8 +68,15 @@
   margin-bottom: 25px;
 }
 
+.header-anchor:hover {
+  color: #000;
+}
+
+.nav-message {
+  padding: 15px 0 15px;
+}
+
 .main-article-wrapper {
-  flex-direction: row;
   width: 100%;
   margin-top: 11.5%;
   padding: 0;
@@ -90,22 +85,21 @@
 .tech-article {
   width: 66.666%;
   padding: 4px;
-  height: 60vh;
+  height: 70vh;
 }
 
 .medium-size-main-article-style {
-  flex-direction: column;
   width: 33.333%;
 }
 
 .lazy-article {
   padding: 4px;
-  height: 30vh;
+  height: 35vh;
 }
 
 .amazon-article {
   padding: 4px;
-  height: 30vh;
+  height: 35vh;
 }
 
 .tech-article-div {
@@ -138,26 +132,7 @@
   margin: 4px;
 }
 
-.amazon-details {
-  display: none;
-}
-
-.header-ul {
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.number {
-  display: none;
-}
-
-.latest-news-element-wrapper {
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
 .latest-news-list-item {
-  flex-direction: column;
   width: 33.33%;
   padding: 8px;
 }
@@ -168,9 +143,20 @@
   padding-bottom: 8px;
 }
 
-.investment-wrapper-div {
-  flex-direction: row;
-  flex-wrap: wrap;
+.latest-funding-header {
+  justify-content: space-between;
+}
+
+.latest-funding-anchor {
+  color: #f00;
+  font-size: 20px;
+  margin: 8px;
+  border-right: 3px solid #f42;
+  padding-right: 4px;
+}
+
+.latest-funding-anchor-last-child {
+  border-right: none;
 }
 
 .investment-story-first-div {
@@ -189,32 +175,18 @@
   display: block;
 }
 
-.story-investment-name-mobile {
-  display: none;
-}
-
-.most-popular-first-div {
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
 .most-popular-section {
   width: 50%;
   padding: 12px;
 }
 
-.latest-deal-ul {
-  flex-direction: row;
+.flex-wrap-md {
   flex-wrap: wrap;
 }
 
 .latest-deal-li {
   width: 33.333%;
   padding: 8px;
-}
-
-.latest-deal-div {
-  flex-direction: column;
 }
 
 .latest-deal-image-style {
@@ -250,5 +222,20 @@
 
 .copy-right-ul li {
   padding: 2px;
+}
+
+.display-none-md {
+  display: none;
+}
+
+.display-flex-md {
+  display: flex;
+}
+
+.column-direction-md {
+  flex-direction: column;
+}
+
+.row-direction-md {
   flex-direction: row;
 }

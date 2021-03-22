@@ -11,6 +11,25 @@
   justify-content: space-between;
 }
 
+.medium-screen-navigation-anchor {
+  font-size: 0.9em;
+  color: #aaa;
+  font-weight: bolder;
+}
+
+.medium-screen-navigation-anchor:hover {
+  color: #fff;
+}
+
+.nav-sections-li-anchor {
+  color: #666;
+  opacity: 0.7;
+}
+
+.nav-sections-li-anchor:hover {
+  color: #000;
+}
+
 .display-flex {
   display: flex;
 }
@@ -78,10 +97,6 @@
   transform: translateY(6px);
 }
 
-.main-article-wrapper {
-  flex-direction: column;
-}
-
 .talent-in-netherlands-wrapper {
   display: block;
 }
@@ -98,7 +113,12 @@
 }
 
 .nav-message {
-  padding: 15px 0 24px;
+  font-size: 14px;
+  padding-top: 4px;
+}
+
+.main-article-wrapper {
+  margin-top: 12%;
 }
 
 .width-100-percent {
@@ -133,20 +153,14 @@
   font-size: 25px;
 }
 
-.header-after::after {
-  background-image: url(../images/after.svg);
-  background-size: 16px 16px;
-  content: '';
-  display: inline-block;
+.header-icon {
   height: 16px;
   margin-left: 2px;
-  position: relative;
-  top: 0;
   width: 16px;
 }
 
-.header-anchor:hover {
-  color: #000;
+.header-anchor:hover path {
+  stroke: #000;
 }
 
 .header-wrapper {
@@ -165,10 +179,6 @@
 .latest-news-section {
   margin-right: auto;
   margin-left: auto;
-}
-
-.latest-news-element-wrapper {
-  flex-direction: column;
 }
 
 .latest-news-list-item {
@@ -228,7 +238,6 @@
 
 .latest-news-article {
   margin-left: 16px;
-  flex-direction: column;
 }
 
 .article-header-anchor {
@@ -258,8 +267,18 @@
   color: #080808;
 }
 
+.latest-funding-anchor {
+  color: #f00;
+  font-size: 20px;
+  margin: 8px;
+  display: block;
+}
+
+.latest-funding-anchor:hover {
+  color: #000;
+}
+
 .investment-wrapper-div {
-  flex-direction: column;
   width: 100%;
 }
 
@@ -354,7 +373,6 @@
 
 .most-popular-first-div {
   margin-bottom: 40px;
-  flex-direction: column;
 }
 
 .most-popular-h2 {
@@ -450,6 +468,7 @@
 .latest-section-header {
   color: #f42;
   font-size: 15px;
+  padding: 4px 8px;
 }
 
 .latest-section-title {
@@ -457,6 +476,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   width: 100%;
+  padding: 4px 8px;
 }
 
 .latest-section-anchor {
@@ -624,16 +644,8 @@
   margin-right: 16px;
 }
 
-.latest-deal-ul {
-  flex-direction: column;
-}
-
 .latest-deal-li {
   position: relative;
-}
-
-.latest-deal-column-div {
-  flex-direction: column;
 }
 
 .latest-deal-h4-anchor:hover {
@@ -678,6 +690,9 @@
 
 .footer-div-ul {
   justify-content: center;
+}
+
+.flex-wrap-sm {
   flex-wrap: wrap;
 }
 
@@ -702,7 +717,7 @@
 
 .footer-links-menu li {
   font-size: 17px;
-  margin: 4px;
+  margin: 8px;
 }
 
 .footer-links-menu-anchor {
@@ -722,11 +737,13 @@
 
 .copy-right-ul {
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .copy-right-ul li {
   padding: 2px;
+}
+
+.column-flex-direction-sm {
   flex-direction: column;
 }
 
